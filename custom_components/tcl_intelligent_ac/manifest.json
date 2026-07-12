@@ -1,0 +1,19 @@
+{
+  "domain": "tcl_intelligent_ac",
+  "name": "TCL Intelligent AC",
+  "codeowners": ["@RazvanManolache"],
+  "config_flow": true,
+  "dhcp": [
+    {
+      "macaddress": "24DFA7*"
+    },
+    {
+      "hostname": "oem_tcliso*"
+    }
+  ],
+  "documentation": "https://github.com/RazvanManolache/home-assistant-tcl-intelligent-ac-local",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/RazvanManolache/home-assistant-tcl-intelligent-ac-local/issues",
+  "requirements": [],
+  "version": "0.4.5"
+}
